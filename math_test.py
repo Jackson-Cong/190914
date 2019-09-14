@@ -25,11 +25,11 @@ for row in range(20):
             op_str = 'x'
         elif op == 3:
             c = a / b
-            op_str = '÷'
+            op_str = '/'
 
 
-        problem = '%2d %s %2d=\t' % (a,op_str,b)
-        answer = '%2d %s %2d = %0.2f\t' % (a,op_str,b,c)
+        problem = '%2d %s %2d=\t\t\t\t\t\t\t\t\t\t\t\t\t' % (a,op_str,b)
+        answer = '%2d %s %2d = %0.2f\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t' % (a,op_str,b,c)
         f1.write(answer)
         f2.write(problem)
     f1.write('\n')
