@@ -1,3 +1,5 @@
+# -*- coding: UTF-8 -*-
+
 
 lan = 15
 for a in range(5):
