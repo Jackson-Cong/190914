@@ -29,7 +29,7 @@ for row in range(20):
 
 
         problem = '%2d %s %2d=\t\t\t\t\t\t\t\t\t\t\t\t\t' % (a,op_str,b)
-        answer = '%2d %s %2d = %0.2f\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t' % (a,op_str,b,c)
+        answer = '%2d %s %2d = %0.2f\t\t\t\t\t\t\t\t\t\t\t\t' % (a,op_str,b,c)
         f1.write(answer)
         f2.write(problem)
     f1.write('\n')
